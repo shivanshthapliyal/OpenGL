@@ -412,15 +412,8 @@ void draw(void)
     displayAxis();
 
    	char string1[64]="Shivansh Thapliyal";
-	char string2[64]="Souradeep Banerjee";
-	char string3[64]="Shishir Goyal";
-	char string4[64]="Siddharth Sharma";
-
-	name(0.0f,25.0f,string1,1,0,0);
-	name(0.0f,50.0f,string2,0,1,0);
-	name(0.0f,75.0f,string3,255,165,0);
-	name(0.0f,100.0f,string4,0,0,1);
-	char string7[64]="Assignment 1 - Computer Graphics";
+	name(0.0f,100.0f,string1,0,0,1);
+	char string7[64]="Computer Graphics";
 	name(450.0f,700.0f,string7,1,1,1);
     if (iii >= 2)
     {
@@ -436,7 +429,7 @@ int main(int argc, char** argv)
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
     glutInitWindowPosition(300, 500);
     glutInitWindowSize(1080, 720);
-    glutCreateWindow("Assignment 1 - Computer Graphics");
+    glutCreateWindow("Computer Graphics");
     glutMouseFunc(mouseClick);
     glutDisplayFunc(draw);
     glutMainLoop();
